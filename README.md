@@ -1,16 +1,50 @@
-# React + Vite
+# 🎯 Career Compass (Initial Phase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Career Compass** is a career guidance and preparation platform designed to help students explore career paths, build skills, and prepare for job placements effectively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 Author
+**Shubham Patil**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Project Overview
 
-## Expanding the ESLint configuration
+Career Compass aims to guide students in their career journey by offering:
+- Personalized learning paths  
+- Interview preparation resources  
+- Placement readiness tools  
+- Career tracking and mentorship support  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack (Planned)
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Hosting:** AWS / Vercel (planned)  
+
+---
+
+## 🧩 Project Phase
+🔹 *Initial Phase* – Setting up the project structure, UI design, and backend routes.
+
+---
+
+## 📅 Future Enhancements
+- AI-based career recommendations  
+- Resume builder  
+- Job portal integration  
+- Progress analytics dashboard  
+
+---
+
+## 📬 Contact
+For collaboration or queries:  
+📧 **shubhampatil6502@gmail.com**   
+🌐 [LinkedIn](https://www.linkedin.com/in/shubham-patil) 
+
+---
+
+> *"Your career, your direction — Career Compass guides the way."*
