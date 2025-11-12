@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
    const [open, setOpen] = useState(false);
   return (
-     <nav className="flex items-center justify-between px-4 py-4 bg-white shadow-md fixed w-full z-50">
+     <nav className="flex items-center justify-between px-4 py-4 backdrop-blur-md bg-white/60 shadow-md fixed w-full z-50">
       {/* Logo */}
       <div className="text-2xl font-bold text-blue-700"> Career Compass</div>
 
@@ -16,9 +16,9 @@ const Navbar = () => {
         
         <Link to='/' className="hover:text-blue-600 cursor-pointer">Home</Link>
         <li className="hover:text-blue-600 cursor-pointer">Roadmaps</li>
-        <li className="hover:text-blue-600 cursor-pointer">AI Guidance</li>
-        <li className="hover:text-blue-600 cursor-pointer">About</li>
-        <li className="hover:text-blue-600 cursor-pointer">Contact</li>
+        <Link to='/aiguidance' className="hover:text-blue-600 cursor-pointer">AI Guidance</Link>
+         <Link to='/about' className="hover:text-blue-600 cursor-pointer">About</Link>
+        <Link to='/contact' className="hover:text-blue-600 cursor-pointer">Contact</Link>
       </ul>
 
       {/* Buttons – Desktop */}
@@ -28,9 +28,11 @@ const Navbar = () => {
          Login
         
         </Link>
-        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-          Sign Up
-        </button>
+      
+         <Link to='/register'className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" >
+         Sign Up
+         </Link>
+        
       </div>
 
       {/* Mobile Menu Icon */}
@@ -42,11 +44,11 @@ const Navbar = () => {
       {open && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-md md:hidden">
           <ul className="flex flex-col items-center space-y-4 py-6 text-gray-700 font-medium">
-            <li>Home</li>
+           <Link to='/'>Home</Link>
             <li>Roadmaps</li>
-            <li>AI Guidance</li>
-            <li>About</li>
-            <li>Contact</li>
+            <Link to='/aiguidance'>AI Guidance</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/contact'>Contact</Link>
             <div className="flex space-x-4 pt-4">
               <button className="px-4 py-2 border border-blue-600 text-blue-600 rounded-lg">Login</button>
               <button className="px-4 py-2 bg-blue-600 text-white rounded-lg">Sign Up</button>
